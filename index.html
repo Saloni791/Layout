@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="dialogbox">
+        <div class="box" id=dialogbox>
+         <!-- <div class="todo">
+            <div class="x" onclick="cut()">x</div>
+            </div> -->  
+        <div>
+            <h2>
+                Add A New Task
+            </h2>                                                                               
+        </div>
+        <div class="tit">
+            <div>Title:</div>
+            <input type="text" placeholder="Enter The Title Of Task" id="task-title">
+        </div>
+        
+        <div class="tit">
+            <div>Description:</div>
+            <textarea placeholder="Enter The Description Of Task" id="task-description"></textarea>
+        </div>
+        <div class="tit">
+            <button onclick="addTodo()">ADD</button>
+        </div>
+    </div>  
+
+    </div>
+
+    <div class="outer">
+        <header>
+            <div>
+                <h2>
+                    My Todo Application
+                </h2>
+            </div>
+            <div class="plus" onclick="add()">
+                <div> + </div>
+            </div>
+        </header>
+        <main>
+            
+              <!-- <div class="todo">
+                <header>
+                    <span>Title of task</span>
+                    <span class="minimize" >_</span>
+                    <span class="minimize" >X</span>
+                </header>
+                <div class="todo-text">
+                    <textarea></textarea>
+                </div>
+            </div> -->
+            
+        </main>
+        <footer></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
